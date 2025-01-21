@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Quicksand", serif;
+}
+/* nav section starts */
+.container{
+  width: 1240px;
+  margin: 0px auto;
+}
+.navbar{
+  width: 1090px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.school{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.btn-primary{
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: orange;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 8px;
+}
+.nav-links{
+  display: flex;
+  gap: 0px 50px;
+}
+.nav-item{
+  list-style: none;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+.nav-link-1{
+  color: orange;
+}
+.nav-link-2{
+  color: skyblue;
+}
+.nav-link-3{
+  color: #05D4DF;
+}
+.nav-link-4{
+  color: #5D58EF;
+}
+/* nav section ends */
