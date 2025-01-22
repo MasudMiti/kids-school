@@ -101,6 +101,8 @@ body{
   background-repeat: no-repeat;
  }
  .card-container{
+  width: 1000px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
  }
@@ -109,7 +111,7 @@ body{
   width: 300px;
   padding: 0px 20px;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, .195);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .095);
   background: linear-gradient(rgb(196, 229, 243) 5%, #ffffff 95%)
 }
 .card-2{
@@ -117,7 +119,7 @@ body{
   width: 300px;
   padding: 0px 20px;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, .195);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .095);
   background: linear-gradient( #e8cca35d 5%, #ffffff 95%)
 }
 .card-3{
@@ -125,15 +127,13 @@ body{
   width: 300px;
   padding: 0px 20px;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, .195);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .095);
   background: linear-gradient(#c088d54c 5%,  #ffffff 95%)
-}
-.card-container{
-  margin: 40px 0px;
 }
  .card-heading{
   text-align: center;
   margin-top: 60px;
+  margin-bottom: 40px;
   font-size: 3rem;
   font-weight: bold;
  }
@@ -159,7 +159,107 @@ body{
     color: #8700FF;
     margin-bottom: 20px;
   }
+  .icon{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  .icon-style{
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: -50px;
+    /* margin-bottom: 50px; */
+    /* margin-top: 4rem; */
+  }
 /* curriculum section ends */
+/* our stories section starts */
+ .our-stories{
+   background-image: url(assets/bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background: linear-gradient(to right, rgba(245, 195, 101, 0.429),rgba(222, 202, 202, 0.114));
+ }
+ .section-parent{
+  display: flex;
+  gap: 5px;
+  margin-top: 30px;
+ }
+ .story-title{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+ }
+ .title{
+  margin-top: 30px;
+ }
+ .sub-title{
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 15px;
+ }
+ .story-description{
+  font-size: 1rem;
+  font-weight: 500px;
+  margin-top: 20px;
+  padding: 10px;
+ }
+ .one-big-image{
+  max-width: 400px;
+  padding: 10px;
+ }
+ .big-img-content{
+  background-color: #fff;
+  border-radius: 10px;
+ }
+ .one-big-image img{
+  width: 100%;
+  border-radius: 10px;
+ }
+ .small-image{
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+ }
+ .small-img-content{
+  background-color: #fff;
+  border-radius: 10px;
+ }
+ .small-image img{
+  width: 100%;
+  border-radius: 10px;
+ }
+ .card-btn{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: white;
+  background-color: #3CD8E8;
+  border: none;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: -30px;
+ }
+ .img-btn4{
+  background-color: #5D58F0;
+ }
+ .img-btn5{
+  background-color: #95B226;
+ }
+ .view-btn{
+  text-align: center;
+  padding: 40px 0px;
+ }
+/* our stories section ends */
 
 
 
