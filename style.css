@@ -11,11 +11,11 @@ body{
 }
 /* nav section starts */
 .wrapper{
-  width: 1040px;
-  margin: 0px auto;
+  /* width: px; */
+  /* margin: 0px auto; */
 }
 .navbar{
-
+  width: 1060px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,6 +25,9 @@ body{
 .logo{
   display: flex;
   align-items: center;
+}
+.logo-bars{
+  display: none;
 }
 .school{
   font-size: 2rem;
@@ -65,18 +68,21 @@ body{
 /* nav section ends */
 /* banner section starts */
 .banner{
-
+  width: 1040px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
+}
+.banner-content{
+  width: 600px;
 }
 .banner-description{
-  margin: 20px 0px;
+  /* margin: 20px 0px; */
 }
 .banner-image{
-  width: 468px;
+  width: 400px;
 }
 .banner-image img{
   width: 100%;
@@ -94,6 +100,7 @@ body{
 .btn-1{
   background-color: black;
   color: white;
+  margin-top: 20px;
 }
  .curriculum{
   background: url(assets/bg.png);
@@ -101,7 +108,7 @@ body{
   background-repeat: no-repeat;
  }
  .card-container{
-  width: 1000px;
+  width: 1060px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -185,6 +192,8 @@ body{
    background: linear-gradient(to right, rgba(245, 195, 101, 0.429),rgba(222, 202, 202, 0.114));
  }
  .section-parent{
+  width: 1100px;
+  margin: 0 auto;
   display: flex;
   gap: 5px;
   margin-top: 30px;
@@ -260,6 +269,62 @@ body{
   padding: 40px 0px;
  }
 /* our stories section ends */
+/* footer section starts */
+.footer{
+  width: 1240px;
+  background-color:  #01ACFD;
+}
+.kids-education{
+  width: 1070px;
+  margin: 0 auto;
+  /* background-color: #01ACFD; */
+}
+  .ft-para{
+    color: white;
+    margin-top: 20px;
+  }
+  .ft-logo{
+    /* width: 86px; */
+   color: white;
+  }
+  .footer-logo-style{
+    display: flex;
+    align-items: center;
+  }
+  .footer-title{
+    font-size: 2rem;
+    line-height: 28px;
+    font-weight: 700;
+    color: white;
+  }
+  .footer-container{
+    /* width: 1070px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* justify-content: space-around; */
+    /* padding: 50px; */
+    margin: 0px auto;
+    padding: 50px;
+    /* align-items: center; */
+  }
+  .about{
+    text-align: center;
+    color: white;
+  }
+  .social-head{
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  ul li{
+    list-style: none;
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+  }
+/* footer section ends */
 
 
 
